@@ -10,7 +10,7 @@ public class BaseballGame {
 	public static void main(String[] args) {
 		String com = computer();
 		char[] chCom = com.toCharArray();
-		System.out.println(com);   // 랜덤 숫자가 제대로 생성됐는지 확인
+//		System.out.println(com);   // 랜덤 숫자가 제대로 생성됐는지 확인
 		Scanner scanner = new Scanner(System.in);
 				
 		while (true) {
