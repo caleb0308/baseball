@@ -64,10 +64,11 @@ public class BaseballGame {
 	// °á°ú ¸Þ¼­µå
 	static void result(int s, int b) {
 		if (s > 0)
-			System.out.println(s + "½ºÆ®¶óÀÌÅ©");
+			System.out.print(s + "½ºÆ®¶óÀÌÅ© ");
 		if (b > 0)
-			System.out.println(b + "º¼");
+			System.out.print(b + "º¼");
 		if (s + b == 0)
-			System.out.println("³´½Ì");
+			System.out.print("³´½Ì");
+		System.out.println();
 	}
 }
