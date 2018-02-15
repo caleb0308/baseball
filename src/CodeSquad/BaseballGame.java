@@ -9,7 +9,7 @@ public class BaseballGame {
 
 	public static void main(String[] args) {
 		char[] com = computer();
-		System.out.println(com);   // 랜덤 숫자가 제대로 생성됐는지 확인
+//		System.out.println(com);   // 랜덤 숫자가 제대로 생성됐는지 확인
 		
 		while (true) {
 			char[] user = user();   // 유저의 숫자를 저장할 변수
